@@ -17,7 +17,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        'heading-color': '#FF0000',
+                        'primary-color': '#6349F8',
 
                     }
                 }
@@ -27,7 +27,53 @@
 </head>
 
 <body>
-    <h1 class="font-manrope text-9xl bg-heading-color">Let's start with this Club</h1>
+    <!-- header part start -->
+    <header class="container mx-auto">
+        <section class="my-20">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-[90%] mx-auto lg:w-full h-[200px] lg:h-[600px]" />
+                    <div class="absolute flex justify-around transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3"
+                            class="btn btn-circle bg-primary-color text-white border-0 lg:text-3xl hover:text-black">❮</a>
+                        <a href="#slide2"
+                            class="btn btn-circle bg-primary-color text-white border-0 lg:text-3xl hover:text-black">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/1-1.png" class="w-[90%] mx-auto lg:w-full h-[200px] lg:h-[600px]" />
+                    <div class="absolute flex justify-around transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1"
+                            class="btn btn-circle bg-primary-color text-white border-0 lg:text-3xl hover:text-black">❮</a>
+                        <a href="#slide3"
+                            class="btn btn-circle bg-primary-color text-white border-0 lg:text-3xl hover:text-black">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/1-2.png" class="w-[90%] mx-auto lg:w-full h-[200px] lg:h-[600px]" />
+                    <div class="absolute flex justify-around transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2"
+                            class="btn btn-circle bg-primary-color text-white border-0 lg:text-3xl hover:text-black">❮</a>
+                        <a href="#slide1"
+                            class="btn btn-circle bg-primary-color text-white border-0 lg:text-3xl hover:text-black">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- header part end -->
+
+    <!-- main part start  -->
+    <main>
+
+    </main>
+    <!-- main part end -->
+
+    <!-- footer part start -->
+    <footer>
+
+    </footer>
+    <!-- footer part end -->
 </body>
 
 </html>
